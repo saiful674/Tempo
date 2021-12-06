@@ -1,0 +1,221 @@
+@media (min-width:1400px){}
+
+
+@media (min-width:1200px) and (max-width:1399.98){}
+
+
+@media (min-width:992px) and (max-width:1199.98){}
+
+@media (min-width:768px) and (max-width:991.98){}
+
+
+
+@media (min-width:576px) and (max-width:767.98){}
+
+
+
+@media (max-width:575.98px){
+    /* menu part start */
+    #menu{
+        padding: 0 !important;
+    }
+    #menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 ;
+    }
+    #menu button i{
+        color: #6ab04c;
+    }
+    #menu ul{
+        text-align: center;
+    }
+    #menu ul li a:hover{
+        color: #111;
+        background: #6ab04c;
+    }
+    #menu ul li a::after{
+        display: none;
+    }
+    #menu ul li a.active{
+        color: #111 !important;
+    }
+    #menu .menu_btn {
+        display: none;
+    }
+
+    /* menu part end */
+    /* banner part start */
+    #banner{
+        padding-top: 40px;
+    }
+    .banner_text {
+        padding-bottom: 50px;
+    }
+    #banner h1 {
+        font-size: 25px;
+        padding-bottom: 20px ;
+    }
+    #banner p {
+        font-size: 14px;
+    }
+    .common_btn {
+        padding: 10px 25px !important;
+    }
+    .play_btn {
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+    }
+    /* banner part end */
+    /* about part start */
+    #about {
+        padding-top: 50px;
+    }
+    .common_heading h2 {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+    .common_heading p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about_main {
+        padding-top: 50px;
+    }
+    .about_img {
+        padding-bottom: 40px;
+    }
+    .about_text h3 {
+        font-size: 24px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .about_text span {
+        padding-top: 20px;
+    }
+    .about_cv h4 {
+        font-size: 16px;
+    }
+    .cv_pad{
+        padding-top: 24px;
+    }
+    .about_text .about_btn {
+        padding-top: 50px;
+    }
+    /* about part end */
+    /* resume part start */
+    #resume {
+        padding-top: 50px;
+    }
+    .resume_proggres.one{
+        margin-bottom: 30px;
+    }
+    /* resume part end */
+    /* counter part start */
+    #counter {
+        padding: 60px 0 30px;
+        margin-top: 70px;
+    }
+    .count_main {
+        margin-bottom: 30px;
+    }
+    .count_text h4 {
+        font-size: 30px;
+    }
+    /* counter part end */
+    /* service part start */
+    #service {
+        padding-top: 50px;
+    }
+    .service_main {
+        padding-top: 50px;
+    }
+    .serv_text h3 {
+        font-size: 27px;
+        padding: 30px 0 20px;
+    }
+    .serv_text span {
+        padding-top: 15px;
+    }
+    /* service part end */
+
+
+    /* portfolio part start */
+    #portfolio {
+        padding-top: 50px;
+    }
+    .port_menu li button {
+        padding:10px 0 10px;
+        margin: 0 0 12px 0;
+        width: 280px;
+    }
+    .port_content {
+        padding-top: 40px;
+    }
+    /* portfolio part end */
+    /* testimonial part start */
+    #testimonial {
+        padding-top: 50px;
+    }
+    .test_main {
+        margin-top: 50px;
+    }
+    .test_text p {
+        padding: 15px 0;
+    }
+    .test_text h5{
+        font-size: 15px;
+    }
+    .test_text h6 {
+        font-size: 14px;
+        padding: 10px 0 15px;
+    }
+    .test_slider .slick-slide {
+        padding: 0 ;
+    }
+    /* testimonial part end */
+    /* project part start */
+    #project {
+        padding: 60px 0 70px;
+        margin-top: 50px;
+    }
+    .pro_text h3 {
+        font-size: 25px;
+    }
+    /* project part end */
+    /* contact part start */
+    #contact {
+        padding-top: 50px;
+    }
+    .address_icon {
+        margin-right: 25px;
+    }
+    .address_text p{
+        font-size: 13px;
+    }
+    .cotact_info{
+        padding-top: 30px;
+    }
+    /* contact part end */
+    /* footer part start */
+    #footer {
+        margin-top: 50px;
+        padding: 25px 0;
+    }
+    /* footer part end */
+
+
+
+
+
+
+
+
+
+
+
+
+}
